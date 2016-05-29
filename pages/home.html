@@ -1,0 +1,31 @@
+<title>CNPC</title>
+
+<div class="jumbotron text-center">
+    <h1>Home Page</h1>
+
+    <p>{{ message }}</p>
+</div>
+
+<div class="cnpcSlideShow">
+    <figure>
+        <img src="images/slideshow/range1.jpg" width="50%" />
+        <figcaption>Range overview</figcaption> 
+    </figure>
+    
+    <figure>
+        <img src="images/slideshow/range2.jpg" width="50%" />
+        <figcaption>Range overview</figcaption> 
+    </figure>
+</div>
+
+<script>
+var opts = {
+    auto : {
+        speed : 3500, 
+        pauseOnHover : true
+    },
+    fullScreen : false, 
+    swipe : true
+};
+makeBSS('.cnpcSlideShow', opts);
+</script>
