@@ -1,3 +1,11 @@
+<?php
+  include("config.php");
+  
+  echo(SQL_SERVER);
+
+?>
+
+
 <!-- index.html -->
 <!DOCTYPE html>
 <html ng-app="cnpcApp">
