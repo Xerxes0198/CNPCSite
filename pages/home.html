@@ -1,3 +1,6 @@
+<!-- stylesheet for this page-->
+<link rel="stylesheet" href="../css/slideshow.css">
+
 <title>CNPC</title>
 
 <div class="jumbotron text-center">
@@ -6,26 +9,13 @@
     <p>{{ message }}</p>
 </div>
 
-<div class="cnpcSlideShow">
-    <figure>
-        <img src="images/slideshow/range1.jpg" width="50%" />
-        <figcaption>Range overview</figcaption> 
-    </figure>
-    
-    <figure>
-        <img src="images/slideshow/range2.jpg" width="50%" />
-        <figcaption>Range overview</figcaption> 
-    </figure>
+<div class="css-slideshow">
+  <figure>
+    <img src="../images/slideshow/range1.jpg" width="495" height="370" />
+     <figcaption><strong>CSS3:</strong> CSS3 delivers a...</figcaption>
+  </figure>
+  <figure>
+    <img src="../images/slideshow/range2.jpg" width="495" height="370" />
+     <figcaption><strong>CSS3:</strong> CSS3 delivers a...</figcaption>
+  </figure>
 </div>
-
-<script>
-var opts = {
-    auto : {
-        speed : 3500, 
-        pauseOnHover : true
-    },
-    fullScreen : false, 
-    swipe : true
-};
-makeBSS('.cnpcSlideShow', opts);
-</script>
