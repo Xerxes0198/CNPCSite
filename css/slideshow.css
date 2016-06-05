@@ -46,10 +46,10 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
   opacity:0;
 }
 figure:nth-child(1) {
-  animation: xfade 48s 42s infinite;
+  animation: xfade 0s 8s infinite;
 }
 figure:nth-child(2) {
-  animation: xfade 48s 36s infinite;
+  animation: xfade 8s 15s infinite;
 }
 
 @keyframes xfade{
